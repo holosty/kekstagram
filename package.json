@@ -1,0 +1,21 @@
+{
+  "name": "kekstagram",
+  "version": "23.0.0",
+  "private": true,
+  "description": "Личный проект",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "eslint": "^7.18.0",
+    "eslint-config-htmlacademy": "^4.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "start": "browser-sync start --server --no-ui --files \"js/**/*.js\"",
+    "test": "eslint js/"
+  },
+  "engines": {
+    "node": "^14.x",
+    "npm": "^6.x"
+  }
+}
